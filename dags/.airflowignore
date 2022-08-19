@@ -1,0 +1,10 @@
+default_properties
+logs
+de/crypcomp/*.py
+de/fred/*.py
+de/googlenews/*.py
+de/mongodb/*.py
+de/upbit/*.py
+de/utils/*.py
+de/exercise_fred2db-decorator.py
+de/exercise_xcoms.py
