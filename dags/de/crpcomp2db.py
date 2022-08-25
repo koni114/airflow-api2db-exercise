@@ -40,7 +40,7 @@ for ticker in tickers:
 dag = DAG(
     dag_id="crpcomp2db",
     description="Get ohlcv data using cryptocompare API",
-    start_date=dt.datetime(2020, 1, 1, 0, 0, tzinfo=UTC),
+    start_date=dt.datetime(2022, 8, 24, 0, 0, tzinfo=UTC),
     schedule_interval=SCHEDULE_INTERVAL,
     max_active_runs=4,
     default_args={
